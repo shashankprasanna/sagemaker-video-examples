@@ -1,0 +1,12 @@
+# To use:
+#   $ conda env create -f tf_env.yml
+#   $ conda activate tf_env
+name: tf_env
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - ipywidgets
+    - tensorflow
+    - tensorboard
+    - matplotlib
